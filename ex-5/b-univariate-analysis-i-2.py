@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 
 def sig(x):
-    return [1/1 + np.exp(-x)]
+    return 1 / (1 + np.exp(-x))
 
 
 d = pd.read_csv(r"C:\Users\cse\Documents\Data science\ex-5\diabetes.csv")
